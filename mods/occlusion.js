@@ -1,5 +1,5 @@
 const DEFAULT_LIGHT_FACTOR = 0.8;
-const MIN_LIGHT_INTENSITY = 0.6;  // If pixel is completely obscured, it will still have this amount of light
+const MIN_LIGHT_INTENSITY = 0.7;  // If pixel is completely obscured, it will still have this amount of light
 
 const MAX_DIRECT_NEIGHBORS = 4;  // getNeighbors() returns max 4 pixels
 const FOLLOWUP_COORDS_TO_CHECK = [
